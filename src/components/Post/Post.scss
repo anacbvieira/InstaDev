@@ -1,0 +1,104 @@
+.post {
+  background-color: #08111E;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.post_header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.post_header .user {
+  display: flex;
+  align-items: center;
+}
+
+.post_header .user_thumb {
+  height: 40px;
+  margin-right: 8px;
+  border: 1px solid #FF991C;
+  width: 40px;
+}
+
+.follow-btn {
+  color: #858D93;
+  font-weight: 600;
+  font-size: 1.2rem;
+
+  &.is-following {
+    color: #ED2168;
+  }
+}
+
+.post_header .user_name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.post_context {
+  font-size: 1.4rem;
+}
+
+.post_figure {
+  border-radius: 30px;
+  height: auto;
+  margin: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.post_figure img {
+  width: 100%;
+}
+
+.post_controls {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 4px 0;
+}
+
+.post_control {
+  color: #858D93;
+  font-size: 2.4rem;
+  margin-right: 5px;
+  position: relative;
+}
+
+.fas.fa-heart {
+  color: #ED2168;
+}
+
+.post_status {
+  display: flex;
+  padding: 0;
+  line-height: 1.4em;
+
+  span {
+    color: #858D93;
+  }
+}
+
+.post_status .user {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.post_status .user span {
+  font-size: 1.2rem;
+}
+
+.post_status .user_thumb {
+  height: 30px;
+  width: 30px;
+  margin-right: 8px;
+}
